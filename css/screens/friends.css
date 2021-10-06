@@ -13,3 +13,7 @@
 #friends-display-link :last-child {
   padding-left: 15px;
 }
+
+.friends-screen {
+  margin: 0px var(--horizontal-space);
+}
