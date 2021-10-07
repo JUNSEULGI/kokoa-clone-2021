@@ -8,3 +8,12 @@
   height: 25px;
   border-radius: 50%;
 }
+.badge__new {
+  background-color: #ff6229;
+  color: #ff6229;
+  border-radius: 50%;
+  display: flex;
+  width: 7px;
+  height: 7px;
+  position: absolute;
+}

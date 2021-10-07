@@ -20,14 +20,7 @@
   bottom: 18px;
   left: 16px;
 }
-.nav_new {
-  background-color: #ff6229;
-  color: #ff6229;
-  border-radius: 50%;
-  display: flex;
-  width: 7px;
-  height: 7px;
-  position: absolute;
+.nav__new {
   left: 29px;
   bottom: 28px;
 }
