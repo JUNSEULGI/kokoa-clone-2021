@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -36,84 +36,88 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
+        <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="fas fa-music fa-lg"></i></span>
         <span>
-          <i class="fas fa-search fa-lg"></i>
+          <i class="fas fa-cog fa-lg"></i>
           <span class="cog__new badge__new"></span>
         </span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="icon-row">
-        <div class="icon-row__icon">
-          <i class="fas fa-qrcode fa-2x"></i>
-          <span>QR Code</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="far fa-address-book fa-2x"></i>
-          <span>Add by Contacts</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="fas fa-fingerprint fa-2x"></i>
-          <span>Add by ID</span>
-        </div>
-        <div class="icon-row__icon">
-          <i class="far fa-envelope fa-2x"></i>
-          <span>Invite</span>
-        </div>
-      </div>
-      <div class="recommended-friends">
-        <h6>Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
-      </div>
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h6 class="open-chat__title">Open Chat</h6>
-          <span
-            >Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
-          </span>
-        </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <h4 class="open-post__title">#BTS</h4>
-            <span class="open-post__hashtags">#BTS#ARMY#FRIENDS</span>
-            <div class="open-post__members">
-              <img src="https://avatars3.githubusercontent.com/u/3612017" />
-              <span class="open-post__member-count">802 members</span>
-              <div class="divider"></div>
-              <span class="open-post__status">Active</span>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars3.githubusercontent.com/u/3612017"
+            class="user-component__avatar user-component__avatar--xl"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nicolas</h4>
+            <div class="user-component__number">
+              <h6 class="user-component__subtitle">+1 78-666-8888</h6>
+              <div class="user-component__mark">!</div>
             </div>
           </div>
-          <div class="open-post__column">
-            <img
-              class="open-post__thumbnail"
-              src="https://avatars3.githubusercontent.com/u/3612017"
-            />
-            <div class="open-post__heart">♥ 326</div>
-          </div>
         </div>
-        <div class="open-post">
-          <div class="open-post__column">
-            <h4 class="open-post__title">Bts Gang~</h4>
-            <span class="open-post__hashtags"
-              >#englishonly #ipurpleyou #jimin</span
-            >
-            <div class="open-post__members">
-              <img src="https://avatars3.githubusercontent.com/u/3612017" />
-              <span class="open-post__member-count">299 members</span>
-              <div class="divider"></div>
-              <span class="open-post__status">Active</span>
+        <div class="user-component__column more-user-component__color">
+          <i class="far fa-comment-alt fa-2x"></i>
+        </div>
+      </div>
+
+      <div class="icon-row more-icon-row">
+        <div class="icon-row__icon">
+          <i class="far fa-calendar-check fa-2x"></i>
+          <span>Calendar</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-archive fa-2x"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-smile-wink fa-2x"></i>
+          <span>Emoticons</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fas fa-brush fa-2x"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+
+      <div class="icon-row more-icon-row more-icon-row-second">
+        <div class="icon-row__icon">
+          <i class="far fa-user-circle fa-2x"></i>
+          <span>Account</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="far fa-comments fa-2x"></i>
+          <span>Openchat</span>
+        </div>
+        <div></div>
+      </div>
+
+      <div class="more-suggestion">
+        <h4 class="more-suggestion__title">Suggestions</h4>
+        <div class="more-suggestion__icons">
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-image">
+              <i class="fas fa-quote-right fa-2x"></i>
             </div>
+            <span class="more-suggestion__icon-text">Kokoa Story</span>
           </div>
-          <div class="open-post__column">
-            <img
-              class="open-post__thumbnail"
-              src="https://avatars3.githubusercontent.com/u/3612017"
-            />
-            <div class="open-post__heart">♥ 216</div>
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-image">
+              <i class="far fa-meh-rolling-eyes fa-2x"></i>
+            </div>
+            <span class="more-suggestion__icon-text">kokoa friends</span>
+          </div>
+          <div class="more-suggestion__icon">
+            <div class="more-suggestion__icon-image">
+              <i class="far fa-grin-squint fa-2x"></i>
+            </div>
+            <span class="more-suggestion__icon-text">Friends Gem</span>
           </div>
         </div>
       </div>

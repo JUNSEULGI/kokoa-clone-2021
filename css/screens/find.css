@@ -1,24 +1,9 @@
 .cog__new {
   position: absolute;
-  bottom: 18px;
-  left: 70px;
+  top: 45px;
+  right: 17px;
 }
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  padding: 25px 0;
-}
-.find-icons__icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.find-icons__icon span {
-  text-align: center;
-  margin-top: 20px;
-  width: 80px;
-  font-weight: 600;
-}
+
 .recommended-friends {
   border-bottom: var(--main-border);
   border-top: var(--main-border);

@@ -26,6 +26,7 @@
 .user-component__title {
   font-size: 22px;
   font-weight: 600;
+  margin-bottom: 8px;
 }
 .user-component__title--not-bold {
   font-weight: 400;
@@ -34,7 +35,6 @@
   font-size: 17px;
   color: rgba(0, 0, 0, 0.4);
   font-weight: 600;
-  margin-top: 8px;
 }
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
@@ -53,4 +53,22 @@
   padding: 0 0 8px 0;
   padding-right: 0;
   color: rgba(0, 0, 0, 0.25);
+}
+
+.user-component__number {
+  display: flex;
+  align-items: center;
+}
+.user-component__mark {
+  margin-left: 5px;
+  border: 2px solid #ff6229;
+  color: #ff6229;
+  font-weight: 600;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
 }
