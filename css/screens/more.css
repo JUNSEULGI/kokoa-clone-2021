@@ -1,7 +1,10 @@
 .more-user-component__color i {
   color: #2f363e;
 }
-
+.talkdrive__new {
+  top: 212px;
+  left: 198px;
+}
 .more-icon-row {
   padding: 0 10px;
 }
@@ -48,4 +51,5 @@
 .more-suggestion__icon-text {
   font-weight: 600;
   opacity: 60%;
+  text-align: center;
 }
