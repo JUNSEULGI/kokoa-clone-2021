@@ -1,9 +1,12 @@
 .more-user-component__color i {
   color: #2f363e;
 }
+.more-icon-row .icon-row__icon i {
+  position: relative;
+}
 .talkdrive__new {
-  top: 212px;
-  left: 198px;
+  bottom: 33px;
+  left: 33px;
 }
 .more-icon-row {
   padding: 0 10px;
