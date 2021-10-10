@@ -104,14 +104,12 @@
   height: 45px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   width: 85%;
   padding: 1px;
 }
 .reply__column input::placeholder {
   font-size: 20px;
   color: black;
-  background-color: #f8f8f8;
 }
 .reply__column input {
   height: 30px;
@@ -120,6 +118,7 @@
   border: none;
   padding: 0;
   position: relative;
+  background-color: #f8f8f8;
 }
 .reply__column:last-child > i,
 .reply__column:last-child button {
@@ -135,4 +134,28 @@
   border: none;
   font-size: 25px;
   padding: 7px 10px;
+}
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  color: #3c1e1e;
+  animation: hideSplashScreen 2s ease-in-out forwards;
+  animation-delay: 1s;
 }
