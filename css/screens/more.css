@@ -8,18 +8,15 @@
   bottom: 33px;
   left: 33px;
 }
+
 .more-icon-row {
   padding: 0 10px;
-}
-.more-icon-row-second {
-  margin-top: 55px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-  justify-items: start;
+  flex-wrap: wrap;
+  width: 100%;
 }
 .more-suggestion {
   border-top: var(--main-border);
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .more-suggestion__title {
   font-weight: 600;

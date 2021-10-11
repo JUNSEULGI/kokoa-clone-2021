@@ -72,6 +72,7 @@
   height: 112px;
   border-radius: 10%;
 }
+
 .open-post__heart {
   width: 60px;
   padding: 5px 0;
@@ -85,6 +86,24 @@
   bottom: 10px;
   left: 45px;
 }
+.open-post__heart span {
+  margin-left: 5px;
+}
+
+@keyframes beatingHeart {
+  from {
+    transform: none;
+  }
+  to {
+    transform: scale(1.5);
+    color: tomato;
+  }
+}
+.open-post__heart:hover i {
+  will-change: transform;
+  animation: beatingHeart 0.5s ease-in-out infinite;
+}
+
 .open-post {
   border-bottom: var(--main-border);
 }
