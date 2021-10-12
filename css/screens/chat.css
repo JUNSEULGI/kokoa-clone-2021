@@ -1,6 +1,5 @@
 .chat-screen {
   background-color: #abc1d1;
-  height: 100%;
 }
 .chat-screen .alt-screen-header {
   position: fixed;
@@ -8,10 +7,9 @@
   box-sizing: border-box;
   top: 0;
   background-color: #abc1d1;
-  z-index: 1;
 }
 .chat-screen .status-bar {
-  z-index: 2;
+  background-color: #abc1d1;
 }
 
 @keyframes fadeIn {
@@ -120,6 +118,7 @@
   margin-left: 5px;
 }
 
+/* 입력창 */
 .reply {
   display: flex;
   padding: 5px 18px;
@@ -130,6 +129,7 @@
   bottom: 0;
   width: 100%;
   box-sizing: border-box;
+  transition: transform 0.3s ease-in-out;
 }
 .reply__column {
   font-size: 30px;
@@ -146,14 +146,9 @@
   height: 45px;
   display: flex;
   align-items: center;
-  width: 85%;
+  width: 90%;
   padding: 1px;
   transition: all 0.3s ease-in-out;
-}
-
-.reply:focus-within .reply__column:last-child {
-  width: 95vw;
-  transform: translateX(-2%);
 }
 
 .reply__column input::placeholder {
@@ -194,6 +189,13 @@
 .reply:focus-within button {
   opacity: 0;
 }
+.reply:focus-within {
+  transform: translateY(80px);
+}
+.reply:focus-within .reply__column:last-child {
+  width: 100vw;
+  transform: translateX(-15px) translateY(-80px);
+}
 
 @keyframes hideSplashScreen {
   from {
@@ -203,19 +205,4 @@
     opacity: 0;
     visibility: hidden;
   }
-}
-
-#splash-screen {
-  background-color: var(--yellow);
-  position: absolute;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 120px;
-  color: #3c1e1e;
-  animation: hideSplashScreen 2s ease-in-out forwards;
-  animation-delay: 1s;
 }

@@ -28,3 +28,19 @@
   color: rgba(0, 0, 0, 0.4);
   margin-bottom: 10px;
 }
+
+#splash-screen {
+  background-color: var(--yellow);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  color: #3c1e1e;
+  animation: hideSplashScreen 2s ease-in-out forwards;
+  animation-delay: 1s;
+}

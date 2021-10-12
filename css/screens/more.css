@@ -13,6 +13,7 @@
   padding: 0 10px;
   flex-wrap: wrap;
   width: 100%;
+  box-sizing: border-box;
 }
 .more-suggestion {
   border-top: var(--main-border);

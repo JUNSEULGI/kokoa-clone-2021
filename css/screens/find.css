@@ -107,3 +107,7 @@
 .open-post {
   border-bottom: var(--main-border);
 }
+
+.open-post:last-child {
+  border-bottom: none;
+}
