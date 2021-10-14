@@ -23,6 +23,10 @@
   width: 60px;
   border-radius: 40%;
 }
+.user-component__avatar--xxl {
+  height: 100px;
+  width: 100px;
+}
 .user-component__title {
   font-size: 22px;
   font-weight: 600;
